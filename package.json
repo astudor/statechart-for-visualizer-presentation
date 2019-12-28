@@ -1,29 +1,21 @@
 {
-  "name": "popover-state-chart",
+  "name": "webpack-setup",
   "version": "1.0.0",
-  "description": "a state chart for a global controller of popups, modals, overlayers, tooltips",
+  "description": "basic webpack setup",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server  --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/astudor/popoverSC.git"
+    "type": "git"
   },
   "keywords": [
-    "popover",
-    "popup",
-    "modal",
-    "overlay",
-    "state-chart"
+    "webpack setup",
+    "project init"
   ],
   "author": "Sorin Andrei",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/astudor/popoverSC/issues"
-  },
-  "homepage": "https://github.com/astudor/popoverSC#readme",
   "devDependencies": {
     "css-loader": "^2.1.0",
     "file-loader": "^3.0.1",
